@@ -1,0 +1,100 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pathway Extreme", sans-serif;
+}
+body {
+  overflow: hidden;
+  background: linear-gradient(to right top, #fbfbfb, #fff9f5, #fdf0e8);
+}
+.title-property {
+  /* font-weight: 100; */
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 40px;
+  color:#583f3a;
+}
+.text-property {
+  text-align: left;
+  margin-left: 40px;
+  color: #83786e;
+  /* text-shadow: 0.1rem #e9e3e5; */
+}
+.hand-hi-style {
+  font-size: 1.5rem;
+  animation-name: hand-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+@keyframes hand-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+img {
+  margin-left: 40px;
+  max-width: 30%;
+}
+
+/************media query***********/
+
+@media (max-width: 765px), (min-width: 450px) {
+  img {
+    width: 50%;
+    margin-top: 80px;
+  }
+  .title-property {
+    font-weight: 800;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 450px), (min-width: 200px) {
+  img {
+    width: 40%;
+    margin-top: 60px;
+  }
+  .title-property {
+    font-weight: 800;}
+
+  }
+
+/* 
+@media screen and (max-width: 200px) {
+  img {
+    width: 40%;
+    margin-top: 60px;
+  }
+  .title-property{
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+} */
