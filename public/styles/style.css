@@ -1,43 +1,36 @@
 /** @format */
 
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Glitch&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Glitch&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
+  font-family: "Pathway Extreme", sans-serif;
+  max-height: 700px;
 }
-body {
-  overflow: hidden;
-  background: linear-gradient(to right top, #fbfbfb, #fff9f5, #fdf0e8);
-}
+
 .title-property {
-  /* font-weight: 100; */
-  text-align: left;
   margin-top: 20px;
   margin-left: 40px;
-  color:#583f3a;
- 
-  /* RUBIK*/
+  color: #583f3a;
+  /* RUBIK-FONT*/
   font-family: "Rubik Dirt", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  }
-
+}
 
 .text-property {
-  text-align: left;
   margin-left: 40px;
   color: #83786e;
   font-family: "Pathway Extreme", sans-serif;
-  /* text-shadow: 0.1rem #e9e3e5; */
+  text-shadow: 0.1rem #e9e3e5;
 }
 .hand-hi-style {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   animation-name: hand-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s; /* Change to speed up or slow down */
   animation-iteration-count: infinite; /* Never stop waving :) */
@@ -72,41 +65,58 @@ body {
 }
 
 img {
-  margin-left: 40px;
-  max-width: 30%;
+  margin-left: 30px;
 }
 
 /************media query***********/
 
 @media (max-width: 765px), (min-width: 450px) {
   img {
-    width: 50%;
-    margin-top: 80px;
+    width: 30%;
   }
+
   .title-property {
-    font-weight: 800;
+  
+    font-weight: 500;
     margin-top: 80px;
   }
 }
 
-@media (max-width: 450px), (min-width: 200px) {
+@media (max-width: 450px) {
   img {
-    width: 40%;
+    width: 60%;
+    margin-top: 60px;
+  }
+
+  .title-property {
+
+      font-size: 1rem;
+      font-weight: 500;
+    
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 300px) {
+  img {
+    width: 30%;
     margin-top: 60px;
   }
   .title-property {
-    font-weight: 800;}
-
+    font-size: 1rem;
+    font-weight: 500;
   }
-
-/* 
-@media screen and (max-width: 200px) {
-  img {
-    width: 40%;
-    margin-top: 60px;
-  }
-  .title-property{
+  .text-property {
     font-size: 0.8rem;
-    font-weight: 800;
   }
-} */
+  .copyright {
+    font-size: 0.6rem;
+  }
+}
