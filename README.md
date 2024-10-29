@@ -9,7 +9,7 @@ https://imanelmr.dev
 - Responsive (Media Queries)
 - Bootstrap
 - Firebase Hosting
-## Ejemplo Media Queries:
+## Ejemplo Media Query:
 
 @media screen and (min-width: 300px) {
 
