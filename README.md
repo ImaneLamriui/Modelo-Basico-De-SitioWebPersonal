@@ -5,6 +5,7 @@ Un modelo básico de sitio web personal, ideal para desarrolladores y diseñador
 ## Tecnologías Usadas
 - HTML
 - CSS
+- Responsive (Media Queries)
 - Bootstrap
 - Firebase Hosting
 
