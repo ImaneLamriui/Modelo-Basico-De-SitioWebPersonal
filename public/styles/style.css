@@ -129,6 +129,6 @@ img {
 
 @media (min-width: 765px){
   .text-property {
-    font-size: large;
+    font-size:medium;
   }
 }
