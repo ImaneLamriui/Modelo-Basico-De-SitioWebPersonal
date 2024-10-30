@@ -3,6 +3,7 @@
 Un modelo básico de sitio web personal, ideal para desarrolladores y diseñadores que buscan una base sólida para construir su propia presencia en línea.
 
 https://imanelmr.dev
+Video link: https://www.canva.com/design/DAGVFZ96_Us/4RXbEXW8VIQk6-HrZeGGHw/watch?utm_content=DAGVFZ96_Us&utm_campaign=designshare&utm_medium=link&utm_source=editor
 ## Tecnologías Usadas
 - HTML
 - CSS
