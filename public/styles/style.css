@@ -9,7 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Pathway Extreme", sans-serif;
-  max-height: 700px;
+  max-height: 910px;
 }
 
 .title-property {
@@ -26,8 +26,8 @@
 .text-property {
   margin-left: 40px;
   color: #83786e;
-  font-family: "Pathway Extreme", sans-serif;
   text-shadow: 0.1rem #e9e3e5;
+
 }
 .hand-hi-style {
   font-size: 1.3rem;
@@ -68,7 +68,12 @@ img {
   margin-left: 30px;
 }
 
-/************media query***********/
+.copyright {
+  font-size: 0.8rem;
+}
+
+
+/************..............MEDIA QUERIES...............***********/
 
 @media (max-width: 765px), (min-width: 450px) {
   img {
@@ -78,8 +83,12 @@ img {
   .title-property {
     font-weight: 500;
     margin-top: 80px;
-  }
+    }
+
+  
 }
+
+
 
 @media (max-width: 450px) {
   img {
@@ -95,11 +104,10 @@ img {
   .copyright {
     font-size: 0.8rem;
   }
+  
+ 
 }
 
-.copyright {
-  font-size: 0.8rem;
-}
 
 @media screen and (min-width: 300px) {
   img {
@@ -107,13 +115,20 @@ img {
     margin-top: 60px;
   }
   .title-property {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
   .text-property {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .copyright {
     font-size: 0.6rem;
+  }
+}
+
+
+@media (min-width: 765px){
+  .text-property {
+    font-size: large;
   }
 }
