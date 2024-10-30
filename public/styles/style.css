@@ -76,7 +76,6 @@ img {
   }
 
   .title-property {
-  
     font-weight: 500;
     margin-top: 80px;
   }
@@ -89,10 +88,8 @@ img {
   }
 
   .title-property {
-
-      font-size: 1rem;
-      font-weight: 500;
-    
+    font-size: 1rem;
+    font-weight: 500;
   }
 
   .copyright {
